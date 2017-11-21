@@ -1,14 +1,6 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 board = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "]
-board2 =
-board3 =
-board4 =
-board5 =
-board6 =
-board7 =
-board8 =
-
 
 def display_board(board = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "])
   puts "#{board[0]}|#{board[1]}|#{board[2]}"
