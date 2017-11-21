@@ -11,4 +11,4 @@ def display_board(board)
 end
 
 display_board(board)
-display_board(board[0] = "X")
+display_board(board[0] = 'X')
