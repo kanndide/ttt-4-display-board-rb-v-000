@@ -1,6 +1,6 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-board = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "]
+board = [" X  ", "   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "]
 
 def display_board(board)
   line1 = "#{board[0]}", "|", "#{board[1]}", "|", "#{board[2]}"
@@ -16,4 +16,4 @@ def display_board(board)
 end
 
 display_board(board)
-display_board(board[0] = " X ")
+display_board(board)
