@@ -15,4 +15,5 @@ def display_board(board)
   puts line5.join
 end
 
-display_board(board[0] = " X ")
+display_board(board)
+display_board(board[0])
