@@ -9,9 +9,9 @@ def display_board(board)
   line4 = "-----------"
   line5 = "#{board[6]}", "|", "#{board[7]}", "|", "#{board[8]}"
   puts line1.join
-  puts line2.join
+  puts line2
   puts line3.join
-  puts line4.join
+  puts line4
   puts line5.join
 end
 
