@@ -3,7 +3,8 @@
 board = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "]
 
 def display_board(board)
-  puts "#{board[0]}", "|", "#{board[1]}", "|", "#{board[2]}"
+  line1 = "#{board[0]}", "|", "#{board[1]}", "|", "#{board[2]}"
+  puts line1.join
 end
 
 display_board(board)
